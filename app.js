@@ -1,17 +1,12 @@
 'use strict';
 
-
-'use strict';
-
-'use strict';
-
 const API_URL = 'http://web4.informatics.ru:82/api/6436d49e668672662d90796413659540';
 
 const products = [
     { id: 1, name: "Пылающий Клинок", price: "1,200 Gold", desc: "Легендарный меч, наносящий урон огнем.", img: "479943.jpg" },
-    { id: 2, name: "Щит Дракона", price: "2,500 Gold", desc: "Защищает от любого магического воздействия.", img: "479943.jpg" },
-    { id: 3, name: "Кольцо Удачи", price: "800 Gold", desc: "Увеличивает шанс выпадения редкого лута.", img: "479943.jpg" },
-    { id: 4, name: "Шлем Валькирии", price: "1,800 Gold", desc: "Дарует владельцу невероятную скорость.", img: "479943.jpg" }
+    { id: 2, name: "Щит Дракона", price: "2,500 Gold", desc: "Защищает от любого магического воздействия.", img: "893560.jpg" },
+    { id: 3, name: "Кольцо Удачи", price: "800 Gold", desc: "Увеличивает шанс выпадения редкого лута.", img: "679375.png" },
+    { id: 4, name: "Шлем Валькирии", price: "1,800 Gold", desc: "Дарует владельцу невероятную скорость.", img: "816416.jpg" }
 ];
 
 const catalogContainer = document.getElementById('catalog');
