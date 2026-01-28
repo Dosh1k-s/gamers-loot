@@ -79,7 +79,13 @@ header .container {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 10px;
+    transition: transform 0.3s ease; 
 }
+
+.product-btn:hover {
+    transform: scale(1.05); 
+}
+
     /* дизвйн для карточки\
     */
     .product-img {
@@ -131,6 +137,7 @@ header .container {
 #cart-count {
     font-size: 1.2rem;
     color: #00ff88;
+
 }
 
 
